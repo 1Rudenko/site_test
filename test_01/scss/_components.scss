@@ -156,45 +156,45 @@
 }
 .body-popup {
 	// .body-popup__close
-	&__close {
-		transition: all 0.3s;
-		position: absolute;
-		inset-block-start: toRem(-10);
-		inset-inline-end: toRem(-10);
-		block-size: toRem(25);
-		inline-size: toRem(25);
-		border: toRem(3) solid var(--white-color);
-		background-color: var(--white-color);
-		border-radius: 50%;
-		box-shadow: 0 0 toRem(10) var(--dark-color-2);
-		&::before,
-		&::after {
-			content: "";
-			transition: all 0.3s;
-			background-color: var(--dark-color-1);
-			block-size: toRem(2);
-			inline-size: 100%;
-			position: absolute;
-			inset-inline-start: 0;
-			inset-block-start: 50%;
-		}
-		&::before {
-			transform: rotate(-45deg);
-		}
-		&::after {
-			transform: rotate(45deg);
-		}
-		@media (any-hover: hover) {
-			&:hover {
-				background-color: var(--gray-color);
-				border: toRem(3) solid var(--gray-color);
-				&::before,
-				&::after {
-					background-color: var(--white-color);
-				}
-			}
-		}
-	}
+	// &__close {
+	// 	transition: all 0.3s;
+	// 	position: absolute;
+	// 	inset-block-start: toRem(-10);
+	// 	inset-inline-end: toRem(-10);
+	// 	block-size: toRem(25);
+	// 	inline-size: toRem(25);
+	// 	border: toRem(3) solid var(--white-color);
+	// 	background-color: var(--white-color);
+	// 	border-radius: 50%;
+	// 	box-shadow: 0 0 toRem(10) var(--dark-color-2);
+	// 	&::before,
+	// 	&::after {
+	// 		content: "";
+	// 		transition: all 0.3s;
+	// 		background-color: var(--dark-color-1);
+	// 		block-size: toRem(2);
+	// 		inline-size: 100%;
+	// 		position: absolute;
+	// 		inset-inline-start: 0;
+	// 		inset-block-start: 50%;
+	// 	}
+	// 	&::before {
+	// 		transform: rotate(-45deg);
+	// 	}
+	// 	&::after {
+	// 		transform: rotate(45deg);
+	// 	}
+	// 	@media (any-hover: hover) {
+	// 		&:hover {
+	// 			background-color: var(--gray-color);
+	// 			border: toRem(3) solid var(--gray-color);
+	// 			&::before,
+	// 			&::after {
+	// 				background-color: var(--white-color);
+	// 			}
+	// 		}
+	// 	}
+	// }
 	// .body-popup__header
 	&__header:not(:last-child) {
 		margin-block-end: toRem(20);
